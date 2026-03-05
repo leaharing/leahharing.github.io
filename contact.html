@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Leah Haring</title>
+    <meta
+      name="description"
+      content="Contact information for Mechanical Engineer Leah Haring, including phone, email, and contact form."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Leah&nbsp;Haring</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html#skills">More</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-header">
+        <div class="container">
+          <p class="muted-heading">Get in Touch</p>
+          <h1 class="page-title">Get in Touch</h1>
+          <p class="page-subtitle">Open to discussing opportunities and collaborations.</p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container contact-grid">
+          <div class="contact-details">
+            <p><strong>Phone</strong><br />709-771-6807</p>
+            <p>
+              <strong>Email</strong><br /><a href="mailto:lharing@mun.ca">lharing@mun.ca</a>
+            </p>
+            <p>
+              <strong>Follow Me</strong><br /><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+          </div>
+
+          <form class="contact-form" action="mailto:lharing@mun.ca" method="post" enctype="text/plain">
+            <div class="form-row">
+              <label for="first-name">First Name*</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-row">
+              <label for="last-name">Last Name*</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 By Leah Haring.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
 

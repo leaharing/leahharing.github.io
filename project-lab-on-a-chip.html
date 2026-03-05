@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab-on-a-Chip Capstone Project | Leah Haring</title>
+    <meta
+      name="description"
+      content="Lab-on-a-Chip Capstone project by Mechanical Engineer Leah Haring, designing a microfluidic device for circulating tumor cell isolation."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Leah&nbsp;Haring</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html#skills">More</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-header">
+        <div class="container">
+          <p class="muted-heading"><a href="projects.html">&lt; Back</a></p>
+          <h1 class="page-title">Lab-on-a-Chip Capstone Project</h1>
+          <p class="page-subtitle">
+            Designed a compact, user-friendly microfluidic chip that efficiently separates and
+            isolates circulating tumor cells (CTCs) from blood by size for early cancer and disease
+            screening, using microfluidic forces in a spiral channel.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container stack">
+          <div>
+            <img
+              src="assets/lab-on-a-chip.png"
+              alt="Spiral microfluidic lab-on-a-chip device"
+              class="project-detail-image"
+            />
+          </div>
+
+          <div>
+            <h2>Project Overview</h2>
+            <p>
+              For my capstone in Mechanical Engineering, my team developed a spiral microfluidic
+              Lab-on-a-Chip (LOC) device designed to isolate larger abnormal cells (e.g., circulating
+              tumor cells) from a blood sample.
+            </p>
+            <p>
+              The device leverages inertial microfluids, specifically Dean and lift forces within
+              curved microchannels, to enable size-based cell separation in a compact, cost-effective
+              chip. The goal was to create an accessible diagnostic tool to support earlier disease
+              detection, reduce reliance on complex imaging systems, and alleviate stress on the
+              healthcare system.
+            </p>
+          </div>
+
+          <div>
+            <h2>The Problem</h2>
+            <p>
+              In regions with long diagnostic wait times, delayed cancer detection leads to late-stage
+              diagnoses and significantly reduced survival rates. Traditional detection methods are
+              expensive, equipment-heavy, and require specialized operators.
+            </p>
+            <p>
+              There is a critical need for a simpler, faster, and more accessible point-of-care
+              screening tool capable of isolating rare abnormal cells from blood samples in a reliable
+              and scalable way.
+            </p>
+          </div>
+
+          <div>
+            <h2>My Contributions</h2>
+            <ul>
+              <li>
+                Conducted an in-depth literature review on inertial microfluids, CTC isolation
+                techniques, and blood rheology to inform design decisions and validate modeling
+                assumptions
+              </li>
+              <li>
+                Led analytical modeling of Dean drag and shear-induced lift forces to predict particle
+                migration within a spiral microchannel
+              </li>
+              <li>
+                Developed MATLAB simulations to evaluate force dominance across multiple particle
+                sizes (10 µm, 22 µm, 40 µm) and flow conditions
+              </li>
+              <li>
+                Performed iterative design optimization of channel width, height, curvature radius, and
+                loop count to meet size, manufacturability, and laminar flow constraints
+              </li>
+              <li>
+                Contributed to fabrication of a PDMS prototype using 3D-printed molds and soft
+                lithography techniques
+              </li>
+              <li>
+                Evaluated separation performance using lift–Dean force ratio analysis and
+                position-based modeling
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Final Outcome / Impact</h2>
+            <p>
+              The final design demonstrated analytical separation of large and small particles within a
+              4 cm × 4 cm chip constraint.
+            </p>
+            <ul>
+              <li>
+                Particles larger than the threshold were consistently dominated by lift forces and
+                migrated toward the inner wall
+              </li>
+              <li>
+                Particles smaller than the threshold were dominated by Dean forces and directed toward
+                the outer wall
+              </li>
+              <li>
+                The design maintained laminar flow and effective separation across relevant blood
+                viscosity ranges
+              </li>
+            </ul>
+            <p>
+              This project demonstrated how microfluidic design, fluid mechanics, and iterative
+              engineering optimization can be used to create a compact, potentially scalable diagnostic
+              platform.
+            </p>
+          </div>
+
+          <div>
+            <h2>Key Skills Applied</h2>
+            <ul>
+              <li>Microfluidics &amp; inertial flow analysis</li>
+              <li>
+                Fluid Mechanics (Reynolds number, Dean number, shear-induced lift modeling)
+              </li>
+              <li>Engineering research &amp; literature synthesis</li>
+              <li>MATLAB simulation &amp; analytical modeling</li>
+              <li>Design validation through comparison to published studies</li>
+              <li>Engineering design iteration &amp; trade-off analysis</li>
+              <li>PDMS fabrication &amp; rapid prototyping</li>
+              <li>Design under constraints (cost, manufacturability, clinical usability)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 By Leah Haring.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
